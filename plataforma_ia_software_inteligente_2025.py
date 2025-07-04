@@ -590,11 +590,3 @@ Original file is located at
 #         st.subheader("📊 Distribución de sentimientos")
 #         st.bar_chart({label: float(prob) for label, prob in zip(labels, probs)})
 #
-
-!ngrok config add-authtoken 2zHZlI5mmfRyrPOXdgKcGBQ58yJ_7s5QoxfpzEu6CksPbE9R2
-
-from pyngrok import ngrok
-!streamlit run app.py &> log.txt &
-url = ngrok.connect(8501)
-print("✅ Plataforma online disponible aquí:", url)
-
