@@ -1,10 +1,7 @@
-streamlit
-pyngrok
-scikit-learn
-matplotlib
-pandas
-numpy
+streamlit==1.26.0
+pyngrok==5.0.5
+scikit-learn==1.3.2
+matplotlib==3.7.3
+pandas==1.5.3
+numpy==1.23.5
 tensorflow==2.13.0
-pillow
-joblib
-transformers
